@@ -1,0 +1,188 @@
+.registerbody{
+    background-color: rgb(253, 253, 252);
+}
+.registerflex{
+    display: flex;
+}
+.h1label{
+    padding-left: 28vw;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 3rem;
+    color:royalblue;
+    font-family: arial;
+}
+.signinlabel{
+    padding-left: 28vw;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+.rimage{
+    width:35vw;
+    height: 75vh;
+    padding-top: 40px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.imagediv{
+    width: 100%;
+}
+.hr{
+    margin-top: 6vh;
+    height: 65vh;
+}
+.mainform{
+    display: flex;
+    padding-top:10vh;
+    padding-left: 2vw;
+    width:110%;
+}
+.form1div{
+    width:100%;
+}
+.form2div{
+    padding-left: 1vw;
+    width:100%;
+}
+
+.input{
+    width:25vw;
+    height:5vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    justify-content: center;
+}
+.input:hover{
+    border-color:royalblue;
+    border-style:ridge;
+    border-radius: 5px;
+}
+
+.submit,.reset{
+    margin-top: 10px;
+    color:#fff;
+    height: 6vh;
+    width: 9.8vw;
+    border:none;
+    font-weight: 600;
+}
+.submit:hover{
+    border-radius: 5px;
+    background-color: #1a47a8;
+}
+.reset:hover{
+    border-radius: 5px;
+    background-color: rgb(190, 59, 12);
+}
+.Submit{
+    background-color: #2563eb;
+}
+.reset{
+    background-color: orangered;
+}
+.label{
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 550;
+    color:#07074d;
+}
+.red{
+    color:red;
+}
+.signinlink{
+    color:#2563eb;
+    text-decoration: none;
+}
+.signinlink:hover{
+    color:#0651f3;
+}
+.success,.unsuccess{
+    position:absolute;
+    margin-top: 20vh;
+    margin-left: 33vw;
+    width:20vw;
+    text-align: center;
+    border-radius: 5px;
+    height: 25vh;
+    padding-top: 10vh;
+    font-size:2rem;
+    background-color: #fff;
+}
+.success{
+    color:green;
+    border: 0.1px solid green;
+}
+.unsuccess{
+    color: red;
+    border: 0.1px solid red;
+}
+.successok{
+    margin-top:5vh;
+    color:whitesmoke;
+    background-color: green;
+    border:none;
+    width:10vw;
+    height:5vh;
+}
+.unsuccessok{
+    margin-top:5vh;
+    color:whitesmoke;
+    background-color: red;
+    border:none;
+    width:10vw;
+    height:5vh;
+}
+@media (max-width:600px) {
+    .registerflex{
+        flex-direction: column;
+    }
+    .hr{
+        display: none;
+    }
+    .imagediv{
+        width:100%;
+    }
+    .rimage{
+        width:100%;
+        height:50vh;
+        padding: 0;
+        margin: 0;
+    }
+    .h1label{
+        padding-left: 20vw;
+    }
+    .input{
+        width:35vw;
+        height:5vh;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        justify-content: center;
+    }
+    .submit,.reset{
+        margin-top: 10px;
+        color:#fff;
+        height: 6vh;
+        width: 15vw;
+        border:none;
+        font-weight: 600;
+    }
+    .mainform{
+        padding-top:5vh;
+        width: 85%;
+        margin-left: 10vw;
+    }
+    .form1div{
+        width:46%;
+    }
+    .form2div{
+        margin-left: 0;
+        padding-left: 0;
+        width:50%;
+    }
+    .signinlabel{
+        padding-left:15vw;
+        
+    }
+
+}
