@@ -77,7 +77,7 @@
                 <div class="oursimg">
                     <img src="ours6.jfif" class="ourimage"></img><br>
                     <div class="oursimgtext">
-                        <label class="ourscakename" >Rose Petals N Pistachio Rasmalai <br>Cake</label><br>
+                        <label class="ourscakename" >Rose N Pistachio Rasmalai <br>Cake</label><br>
                         $ 699
                     </div>
                 </div>
