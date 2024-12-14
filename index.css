@@ -1,0 +1,72 @@
+.s{
+    font-family: lato,sans-serif;
+    line-height: 1.5;
+    font-size: 34px;
+    font-weight: 600;
+    color:#251D34;
+    margin-left: 10vw;
+}
+.sflex,.ourflex{
+    display: flex;
+}
+.s1div{
+    margin-left: 10vw;
+}
+.s2div{
+    margin-left: 15vw;
+}
+.simgtext{
+    font-family: Lato, sans-serif;
+    text-align:center;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 17px;
+}
+.simg{
+    height: 40vh;
+    width:30vw;
+    border-radius: 5px;
+}
+
+/* Our Best Seller */
+
+.oursellertext{
+    font-family: lato,sans-serif;
+    line-height: 1.5;
+    font-size: 34px;
+    font-weight: 600;
+    color:#251D34;
+    margin-left: 10vw;
+}
+.ourback{
+    background-color: #fcaeae;
+}
+.our1div{
+    margin-left: 10vw;
+}
+.our2div{
+    margin-left: 22vw;
+}
+.oursimg{
+    background-color: whitesmoke;
+    border-radius:10px;
+    margin-top: 15px;
+    padding: 10px;
+    justify-content: center;
+}
+.ourimage{
+    height: 40vh;
+    width:27vw;
+}
+.oursimgtext{
+   font-weight: 600;
+   font-family: poppins,sans-serif;
+   font-size:16px;
+}
+.ourscakename{
+    line-height: 1.5;
+    font-family: poppins;
+    margin-top: 3px;
+    color:rgb(33, 37, 41);
+    font-size:15px;
+}
